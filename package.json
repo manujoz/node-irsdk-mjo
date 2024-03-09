@@ -1,0 +1,25 @@
+{
+    "name": "node-irsdk-mjo",
+    "version": "1.0.0-beta.1",
+    "description": "iRacing SDK implementation for nodejs",
+    "main": "src/node-irsdk.js",
+    "scripts": {
+        "install": "node-gyp rebuild"
+    },
+    "keywords": [
+        "irsdk",
+        "iRacing SDK",
+        "iRacing"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manujoz/node-irsdk-mjo"
+    },
+    "types": "src/node-irsdk.d.ts",
+    "author": "Manu Overa",
+    "license": "MIT",
+    "dependencies": {
+        "js-yaml": "^4.1.0",
+        "nan": "^2.19.0"
+    }
+}
