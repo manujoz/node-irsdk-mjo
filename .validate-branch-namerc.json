@@ -1,0 +1,4 @@
+{
+    "pattern": "^(master){1}$|^(feature|fix|hotfix|release)/.+$",
+    "errorMsg": "Branch name must match with this expression: ^(master){1}$|^(feature|fix|hotfix|release)/.+$"
+}
