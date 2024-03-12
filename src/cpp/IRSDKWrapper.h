@@ -3,6 +3,7 @@
 #include "irsdk/irsdk_defines.h"
 #include <time.h>
 #define WIN32_LEAN_AND_MEAN
+#define NOMINMAX
 #include <windows.h>
 
 #include <map>
