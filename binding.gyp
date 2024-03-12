@@ -26,5 +26,8 @@
         }
       }
     }
-  ]
+  ],
+  "variables": {
+    "standalone_static_library": 1,
+  }
 }
