@@ -5,6 +5,7 @@
     "main": "src/node-irsdk.js",
     "scripts": {
         "install": "node-gyp rebuild",
+        "build-nwjs": "nw-gyp configure --target=[[NWJS_VERSOPM]] --msvs_version=2019 && nw-gyp build --target=[[NWJS_VERSOPM]] --msvs_version=2019",
         "husky": "husky install"
     },
     "keywords": [
