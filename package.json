@@ -1,10 +1,11 @@
 {
     "name": "node-irsdk-mjo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "iRacing SDK implementation for nodejs",
     "main": "src/node-irsdk.js",
     "scripts": {
         "install": "node-gyp rebuild",
+        "build-nwjs": "nw-gyp configure --target=[[NWJS_VERSOPM]] --msvs_version=2019 && nw-gyp build --target=[[NWJS_VERSOPM]] --msvs_version=2019",
         "husky": "husky install"
     },
     "keywords": [
