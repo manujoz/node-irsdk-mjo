@@ -9,6 +9,22 @@ Other iRSDK implementations:
 -   [pyirsdk (python3)](https://github.com/kutu/pyirsdk/)
 -   [iRacingSDK.Net](https://github.com/vipoo/iRacingSDK.Net)
 
+## Use with nwjs
+
+You need install node 18 and nw-gyp.
+
+```bash
+npm install -g nw-gyp
+```
+
+Change the build-nwjs script [[NWJS_VERSION]] in package.json to match your nwjs version, e.g. "0.101.2".
+
+Then you can build the addon for nwjs in node_modules/node-irsdk-mjo directory:
+
+```bash
+npm run build-nwjs
+```
+
 ## Disclaimer
 
 This is a fork of [node-irsdk](https://github.com/apihlaja/node-irsdk) by apihlaja. The original project is no longer maintained and I have made some changes to the code to make it work with the latest version of iRacing.

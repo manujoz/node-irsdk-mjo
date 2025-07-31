@@ -5,7 +5,7 @@
     "main": "src/node-irsdk.js",
     "scripts": {
         "install": "node-gyp rebuild",
-        "build-nwjs": "nw-gyp configure --target=[[NWJS_VERSOPM]] --msvs_version=2019 && nw-gyp build --target=[[NWJS_VERSOPM]] --msvs_version=2019",
+        "build-nwjs": "nw-gyp configure --target=[[NWJS_VERSION]] --msvs_version=2019 && nw-gyp build --target=[[NWJS_VERSION]] --msvs_version=2019",
         "husky": "husky install"
     },
     "keywords": [
@@ -22,7 +22,7 @@
     "license": "MIT",
     "dependencies": {
         "js-yaml": "^4.1.0",
-        "nan": "^2.19.0"
+        "nan": "^2.23.0"
     },
     "devDependencies": {
         "@commitlint/cli": "17.7.1",
